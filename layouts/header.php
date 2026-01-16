@@ -31,9 +31,8 @@
             <li><a href="#"> ติดต่อเรา</a></li>
         </ul>
 
-        <div class="sidebar-banner">
-            <img src="http://isuzukkc.com/assets/img/isuzu_menu_footer.webp" alt="Banner"
-                style="width: 100%; height: auto; display: block;">
+        <div class="sidebar-footer-banner">
+            <img src="https://isuzukkc.com/assets/img/isuzu_menu_footer.webp" alt="Banner">
         </div>
     </div>
 

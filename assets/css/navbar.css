@@ -143,13 +143,23 @@ body.no-scroll {
   overflow: hidden;
 }
 
-.sidebar-banner {
-  width: 100%;
-  margin-top: auto; /* ช่วยดันลงไปข้างล่างถ้าใช้ flexbox */
-  padding: 0;
+#mySidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
-.sidebar-banner img {
+.sidebar-footer-banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  padding: 0;
+  line-height: 0;
+}
+
+.sidebar-footer-banner img {
+  width: 100%;
+  height: auto;
   display: block;
 }
