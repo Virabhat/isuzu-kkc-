@@ -1,0 +1,35 @@
+/* ==================================================
+   Hero Section
+================================================== */
+.hero {
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+  color: var(--white);
+  padding: clamp(64px, 12vw, 140px) 0;
+  border-bottom: 4px solid #b30000;
+}
+
+.hero-inner {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 0.6rem;
+  line-height: 1.15;
+  letter-spacing: 3px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 1.6rem;
+  color: #ffe6e6;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}

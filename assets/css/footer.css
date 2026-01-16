@@ -1,0 +1,91 @@
+/* ==================================================
+    Footer
+================================================== */
+/* การตั้งค่าพื้นฐานของ Footer */
+.footer {
+  background-color: #1a1a1a; /* สีดำถ่าน ดูพรีเมียม */
+  color: #ffffff;
+  padding: 60px 0 20px 0;
+  font-family: "Prompt", sans-serif;
+}
+
+.footer-center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-right {
+  margin-left: 85px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* จัด Layout เป็น 3 คอลัมน์ */
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr; /* ปรับความกว้างแต่ละส่วน */
+  gap: 40px;
+}
+
+/* หัวข้อใน Footer */
+.footer-section h3 {
+  color: #f60000; /* สีแดง ISUZU */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f60000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* รายการลิงก์ */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f60000;
+  padding-left: 5px;
+}
+
+/* Copyright ด้านล่าง */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  color: #888;
+}
+
+/* รองรับมือถือ (Responsive) */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr; /* ยุบเหลือ 1 คอลัมน์ในมือถือ */
+    text-align: center;
+  }
+
+  .footer-section h4 {
+    margin-top: 20px;
+  }
+}
