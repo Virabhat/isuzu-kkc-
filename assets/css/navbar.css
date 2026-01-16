@@ -142,3 +142,14 @@
 body.no-scroll {
   overflow: hidden;
 }
+
+.sidebar-banner {
+  width: 100%;
+  margin-top: auto; /* ช่วยดันลงไปข้างล่างถ้าใช้ flexbox */
+  padding: 0;
+}
+
+.sidebar-banner img {
+  width: 100%;
+  display: block;
+}

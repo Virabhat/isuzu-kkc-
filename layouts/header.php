@@ -21,16 +21,20 @@
 
     <div id="mySidebar" class="sidebar-right">
         <div class="sidebar-header">
-            <h3>เมนูรถยนต์</h3>
+            <img src="assets/img/isuzu-Logo.png" alt="ISUZU KKC Logo" width="285" height="80" />
             <span class="close-sidebar" onclick="closeNav()">&times;</span>
         </div>
         <ul class="sidebar-menu">
-            <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Isuzu D-Max</a></li>
-            <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Isuzu MU-X</a></li>
-            <li><a href="#"><i class="fa-solid fa-chevron-right"></i> รถบรรทุก Isuzu</a></li>
-            <li><a href="#"><i class="fa-solid fa-chevron-right"></i> จองคิวทดลองขับ</a></li>
-            <li><a href="#"><i class="fa-solid fa-chevron-right"></i> คำนวณค่างวด</a></li>
+            <li><a href="#"> โปรโมชั่นประจำเดือน </a></li>
+            <li><a href="#"> โปรโมชั่นชุดเเต่ง</a></li>
+            <li><a href="#"> รุ่นรถ</a></li>
+            <li><a href="#"> ติดต่อเรา</a></li>
         </ul>
+
+        <div class="sidebar-banner">
+            <img src="http://isuzukkc.com/assets/img/isuzu_menu_footer.webp" alt="Banner"
+                style="width: 100%; height: auto; display: block;">
+        </div>
     </div>
 
     <header class="navbar">
