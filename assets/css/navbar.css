@@ -73,13 +73,13 @@
 /* 2. ตัว Sidebar */
 .sidebar-right {
   height: 100%;
-  width: 320px;
+  width: 400px;
   /* ความกว้างเมนู */
   position: fixed;
   z-index: 1002;
   /* อยู่เหนือ Overlay */
   top: 0;
-  right: -320px;
+  right: -400px;
   /* ซ่อนไว้ทางขวา */
   background-color: #fff;
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);

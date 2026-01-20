@@ -41,6 +41,7 @@
 <script src="assets/js/swiper-typecar.js"></script>
 <script src="assets/js/swiper-review.js"></script>
 <script src="assets/js/navbar.js"></script>
+<script src="assets/js/review.js"></script>
 
 </body>
 
