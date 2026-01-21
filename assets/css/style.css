@@ -295,7 +295,6 @@ a {
   background: url("../img/bg_isuzukcc.webp") center / cover no-repeat;
 }
 
-/* overlay ทำให้ภาพจาง */
 .type-car::before {
   content: "";
   position: absolute;
@@ -303,7 +302,6 @@ a {
   background: rgba(39, 38, 38, 0.7); /* ปรับความจางตรงนี้ */
 }
 
-/* ให้ content อยู่บน overlay */
 .type-car > * {
   position: relative;
 }

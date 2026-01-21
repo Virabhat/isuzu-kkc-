@@ -15,7 +15,7 @@ var swiper = new Swiper(".car-swiper", {
       slidesPerView: 2, // แท็บเล็ตแสดง 2 อัน
     },
     1024: {
-      slidesPerView: 3, // คอมพิวเตอร์แสดง 3 อัน
+      slidesPerView: 4, // คอมพิวเตอร์แสดง 3 อัน
     },
   },
 });

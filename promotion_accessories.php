@@ -4,7 +4,7 @@
 <section class="hero">
     <div class="container hero-inner">
         <h1>
-            <span>รีวิว</span>
+            <span>โปรโมชั่นชุดเเต่ง</span>
         </h1>
         <p>
             รถยนต์อีซูซุครบวงจรในขอนแก่น
@@ -17,8 +17,6 @@
 
     <div class="container">
         <div class="car-box">
-            <h2 class="section-title">รุ่นรถยอดนิยม</h2>
-
             <div class="swiper car-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -91,13 +89,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="car-box">
-            <h2 class="section-title">Isuzu Spark</h2>
-
+            <br><br><br>
             <div class="swiper car-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -170,13 +162,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="car-box">
-            <h2 class="section-title">Isuzu D-Max</h2>
-
+            <br><br><br>
             <div class="swiper car-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -249,13 +235,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="car-box">
-            <h2 class="section-title">Isuzu MU-X</h2>
-
+            <br><br><br>
             <div class="swiper car-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -328,14 +308,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="car-box">
-            <h2 class="section-title">Isuzu V-Cross</h2>
-
+            <br><br><br>
             <div class="swiper car-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

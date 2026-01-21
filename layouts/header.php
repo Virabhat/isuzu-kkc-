@@ -26,8 +26,8 @@
             <span class="close-sidebar" onclick="closeNav()">&times;</span>
         </div>
         <ul class="sidebar-menu">
-            <li><a href="#"> โปรโมชั่นประจำเดือน </a></li>
-            <li><a href="#"> โปรโมชั่นชุดเเต่ง</a></li>
+            <li><a href="promotion_month.php"> โปรโมชั่นประจำเดือน </a></li>
+            <li><a href="promotion_accessories.php"> โปรโมชั่นชุดเเต่ง</a></li>
             <li><a href="#"> รุ่นรถ</a></li>
             <li><a href="#"> ติดต่อเรา</a></li>
         </ul>
@@ -45,9 +45,9 @@
 
             <nav class="nav" role="navigation" aria-label="เมนูหลัก">
                 <ul class="nav-list">
-                    <li><a href="#review">รีวิว</a></li>
-                    <li><a href="#type">รุ่นรถ</a></li>
-                    <li><a href="#">ผลงาน</a></li>
+                    <li><a href="review.php">รีวิว</a></li>
+                    <li><a href="typecar.php">รุ่นรถ</a></li>
+                    <li><a href="portfolio.php">ผลงาน</a></li>
                     <li><a href="#">ติดต่อเรา</a></li>
                     <li>
                         <a href="javascript:void(0)" onclick="openNav()">
