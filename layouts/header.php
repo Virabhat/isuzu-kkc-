@@ -28,8 +28,8 @@
         <ul class="sidebar-menu">
             <li><a href="promotion_month.php"> โปรโมชั่นประจำเดือน </a></li>
             <li><a href="promotion_accessories.php"> โปรโมชั่นชุดเเต่ง</a></li>
-            <li><a href="#"> รุ่นรถ</a></li>
-            <li><a href="#"> ติดต่อเรา</a></li>
+            <li><a href="typecar.php"> รุ่นรถ</a></li>
+            <li><a href="contact.php"> ติดต่อเรา</a></li>
         </ul>
 
         <div class="sidebar-footer-banner">
@@ -48,7 +48,7 @@
                     <li><a href="review.php">รีวิว</a></li>
                     <li><a href="typecar.php">รุ่นรถ</a></li>
                     <li><a href="portfolio.php">ผลงาน</a></li>
-                    <li><a href="#">ติดต่อเรา</a></li>
+                    <li><a href="contact.php">ติดต่อเรา</a></li>
                     <li>
                         <a href="javascript:void(0)" onclick="openNav()">
                             <i class="fa-solid fa-car" style="color: #ffffff;"></i>
