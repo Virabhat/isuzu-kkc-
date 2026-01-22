@@ -25,8 +25,7 @@
     <div class="swiper-outer">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-title="มีเทคโนโลยีความปลอดภัยรอบคัน" data-link="review_detail_1.php">
                     <div class="swiper-card">
                         <video autoplay muted loop playsinline class="card-video">
                             <source src="VDO/video_one.mp4" type="video/mp4">
@@ -35,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-title="ดีไซน์โฉบเฉี่ยว ทันสมัย" data-link="review_detail_2.php">
                     <div class="swiper-card">
                         <video autoplay muted loop playsinline class="card-video">
                             <source src="VDO/video_two.mp4" type="video/mp4">
@@ -44,7 +43,8 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-title="ดีไซน์โฉบเฉี่ยว ทันสมัย เจ๋งเเจ๋ว"
+                    data-link="review_detail_3.php">
                     <div class="swiper-card">
                         <video autoplay muted loop playsinline class="card-video">
                             <source src="VDO/video_three.mp4" type="video/mp4">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-title="เยี่ยมยอดกล้วยทอดสองถุง" data-link="review_detail_5.php">
                     <div class="swiper-card">
                         <video autoplay muted loop playsinline class="card-video">
                             <source src="VDO/video_four.mp4" type="video/mp4">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-title="รถซื้อเเกงจะไปเเรงได้ยังไง" data-link="review_detail_6.php">
                     <div class="swiper-card">
                         <video autoplay muted loop playsinline class="card-video">
                             <source src="VDO/video_five.mp4" type="video/mp4">
@@ -81,8 +81,8 @@
 
         <!-- swiper-caption -->
         <div class="review-caption">
-            <h3>มีเทคโนโลยีความปลอดภัยรอบคัน</h3>
-            <a href="#" class="btn-review">
+            <h3 id="review-title">มีเทคโนโลยีความปลอดภัยรอบคัน</h3>
+            <a href="#" id="review-link" class="btn-review">
                 สนใจเพิ่มเติม
             </a>
         </div>
