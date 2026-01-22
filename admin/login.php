@@ -141,7 +141,6 @@ if (isset($_POST['login_btn'])) {
 </head>
 
 <body>
-
     <div class="login-page">
         <div class="login-box">
             <img class="login-center" src="../assets/img/isuzu-Logo.png" alt="ISUZU KKC Logo" width="300" height="80" />
@@ -174,7 +173,6 @@ if (isset($_POST['login_btn'])) {
             </p>
         </div>
     </div>
-
 </body>
 
 </html>

@@ -196,6 +196,52 @@ if (!isset($_SESSION['admin_login'])) {
                 </tbody>
             </table>
         </div>
+
+        <div class="admin-container" style="max-width: 600px; margin: 50px auto; font-family: sans-serif;">
+            <h2 style="text-align: center; color: #e31a22;">เพิ่มรุ่นรถใหม่ (ISUZU KKC)</h2>
+
+            <form action="save_car.php" method="POST" enctype="multipart/form-data"
+                style="background: #f4f4f4; padding: 30px; border-radius: 15px;">
+
+                <div style="margin-bottom: 15px;">
+                    <label>ชื่อรุ่นรถ:</label>
+                    <input type="text" name="car_name" placeholder="เช่น ISUZU D-MAX 2024" required
+                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label>ประเภทรถ:</label>
+                    <select name="car_category"
+                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+                        <option value="pickup">รถกระบะ (D-MAX)</option>
+                        <option value="suv">รถอเนกประสงค์ (MU-X)</option>
+                        <option value="truck">รถบรรทุก</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label>รูปภาพรถยนต์:</label>
+                    <input type="file" name="car_image" accept="image/*" required style="width: 100%;">
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label>รายละเอียดรถ:</label>
+                    <textarea name="car_detail" rows="5" placeholder="กรอกข้อมูลสเปกหรือจุดเด่นของรถ..."
+                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;"></textarea>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <label>ลิงก์รายละเอียดเพิ่มเติม (URL):</label>
+                    <input type="text" name="data_link" placeholder="เช่น car_dmax.php"
+                        style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+                </div>
+
+                <button type="submit" name="submit"
+                    style="width: 100%; padding: 12px; background: #e31a22; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold;">
+                    บันทึกข้อมูลรถยนต์
+                </button>
+            </form>
+        </div>
     </div>
 
 </body>

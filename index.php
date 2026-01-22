@@ -1,4 +1,5 @@
 <?php include 'layouts/header.php'; ?>
+<?php session_start(); ?>
 
 <!-- ================= Hero Section ================= -->
 <section class="hero">
@@ -108,57 +109,35 @@
     <div class="swiper-outer">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
+                <?php
+                require_once 'config.php';
 
-                <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <img src="assets/img_cars/1.webp" alt="Isuzu D-Max" class="car-img">
+                $sql = "SELECT * FROM cars ORDER BY id DESC";
+                $result = mysqli_query($conn, $sql);
 
-                        <div class="car-details">
-                            <h4>Isuzu D-Max</h4>
+                if (mysqli_num_rows($result) > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        ?>
+                        <div class="swiper-slide" data-title="<?php echo $row['car_name']; ?>"
+                            data-link="<?php echo $row['data_link']; ?>">
+
+                            <div class="swiper-card">
+                                <img src="assets/img_cars/<?php echo $row['car_image']; ?>"
+                                    alt="<?php echo $row['car_name']; ?>" class="car-img">
+
+                                <div class="car-details">
+                                    <h4>
+                                        <?php echo $row['car_name']; ?>
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <img src="assets/img_cars/2.webp" alt="Isuzu D-Max" class="car-img">
-
-                        <div class="car-details">
-                            <h4>Isuzu D-Max</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <img src="assets/img_cars/3.webp" alt="Isuzu D-Max" class="car-img">
-
-                        <div class="car-details">
-                            <h4>Isuzu D-Max</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <img src="assets/img_cars/4.webp" alt="Isuzu D-Max" class="car-img">
-
-                        <div class="car-details">
-                            <h4>Isuzu D-Max</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <img src="assets/img_cars/1.webp" alt="Isuzu D-Max" class="car-img">
-
-                        <div class="car-details">
-                            <h4>Isuzu D-Max</h4>
-                        </div>
-                    </div>
-                </div>
-
+                        <?php
+                    }
+                } else {
+                    echo "<p style='color:white; text-align:center; width:100%;'>ยังไม่มีข้อมูลรถยนต์ในระบบ</p>";
+                }
+                ?>
             </div>
         </div>
 
