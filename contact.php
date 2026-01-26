@@ -2,7 +2,7 @@
 
 <style>
     .contact-hero {
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg_isuzukcc.webp') center/cover;
+        background: linear-gradient(135deg, var(--brand), var(--brand-dark));
         padding: 100px 0;
         text-align: center;
         color: #fff;

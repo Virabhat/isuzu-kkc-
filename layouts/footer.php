@@ -38,10 +38,18 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <script src="assets/js/swiper-typecar.js"></script>
 <script src="assets/js/swiper-review.js"></script>
 <script src="assets/js/navbar.js"></script>
 <script src="assets/js/review.js"></script>
+
+<script>
+    // เริ่มต้นใช้งาน Fancybox
+    Fancybox.bind("[data-fancybox]", {
+        // เพิ่มตัวเลือกเพิ่มเติมที่นี่ (ถ้ามี)
+    });
+</script>
 
 </body>
 

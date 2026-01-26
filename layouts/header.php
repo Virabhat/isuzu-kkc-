@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/review.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
 </head>
 
@@ -33,7 +34,7 @@
         </ul>
 
         <div class="sidebar-footer-banner">
-            <img src="https://isuzukkc.com/assets/img/isuzu_menu_footer.webp" alt="Banner">
+            <img class="logo-sidebar" src="https://isuzukkc.com/assets/img/isuzu_menu_footer.webp" alt="Banner">
         </div>
     </div>
 
@@ -49,7 +50,7 @@
                     <li><a href="typecar.php">รุ่นรถ</a></li>
                     <li><a href="portfolio.php">ผลงาน</a></li>
                     <li><a href="contact.php">ติดต่อเรา</a></li>
-                    <li>
+                    <li class="nav-icon">
                         <a href="javascript:void(0)" onclick="openNav()">
                             <i class="fa-solid fa-car" style="color: #ffffff;"></i>
                         </a>

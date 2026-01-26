@@ -168,12 +168,12 @@
 
 
         <!-- swiper-caption -->
-        <div class="type-caption">
+        <!-- <div class="type-caption">
             <h3>มีเทคโนโลยีความปลอดภัยรอบคัน</h3>
             <a href="#" class="btn-review">
                 สนใจเพิ่มเติม
             </a>
-        </div>
+        </div> -->
 
     </div>
 
