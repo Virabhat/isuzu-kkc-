@@ -16,6 +16,10 @@
 }
 
 .footer-right {
+  display: block; /* มีอยู่แล้ว */
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; /* ตามที่ตั้งไว้ */
 }
 
 .container {

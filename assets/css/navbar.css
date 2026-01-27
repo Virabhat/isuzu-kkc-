@@ -163,6 +163,30 @@ body.no-scroll {
   height: auto;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .logo img {
+    margin-top: 10px;
+    height: 35px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    padding: 0;
+  }
+
+  .nav-list a {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    letter-spacing: 2px;
+  }
+}
+
 @media (max-width: 678px) {
   .logo img {
     margin-top: 15px;
